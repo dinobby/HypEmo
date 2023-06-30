@@ -1,0 +1,11 @@
+negative	root
+angry	negative
+ashamed	negative
+furious	negative
+guilty	negative
+angry	root
+ashamed	root
+furious	root
+guilty	root
+furious	angry
+guilty	ashamed

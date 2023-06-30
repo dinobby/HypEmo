@@ -1,0 +1,14 @@
+datasets==2.13.1
+networkx==3.1
+numpy==1.23.2
+plotly==3.10.0
+pytorch-metric-learning==2.2.0
+scikit-learn==1.2.2
+sentence-transformers==2.2.2
+pytorch==1.12.1 
+torchvision==0.13.1 
+torchaudio==0.12.1
+torchtext==0.6.0
+tqdm==4.64.0
+transformers==4.30.2
+gensim==4.3.1

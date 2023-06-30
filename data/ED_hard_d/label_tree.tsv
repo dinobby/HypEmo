@@ -1,0 +1,11 @@
+positive	root
+negative	root
+anticipating	positive
+excited	positive
+hopeful	positive
+guilty	negative
+anticipating	root
+excited	root
+hopeful	root
+guilty	root
+excited	anticipating

@@ -1,0 +1,10 @@
+positive	root
+joyful	positive
+joyful	root
+negative	root
+afraid	negative
+angry	negative
+sad	negative
+afraid	root
+angry	root
+sad	root

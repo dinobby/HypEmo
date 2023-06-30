@@ -1,0 +1,11 @@
+negative	root
+anxious	negative
+apprehensive	negative
+afraid	negative
+terrified	negative
+anxious	root
+apprehensive	root
+afraid	root
+terrified	root
+anxious	apprehensive
+terrified	afraid

@@ -1,0 +1,11 @@
+negative	root
+devastated	negative
+sad	negative
+sentimental	negative
+nostalgic	negative
+devastated	root
+sad	root
+sentimental	root
+nostalgic	root
+nostalgic	sentimental
+devastated	sad
