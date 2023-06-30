@@ -1,15 +1,24 @@
 # HypEmo
-The official implementation of ACL 2023 paper [Label-Aware Hyperbolic Embeddings for Fine-grained Emotion Classification](https://arxiv.org/abs/2306.14822)
+The implementation of the ACL 2023 paper [Label-Aware Hyperbolic Embeddings for Fine-grained Emotion Classification](https://arxiv.org/abs/2306.14822).
 
 This code is tested under Python3.10.11.
 
-### Training:
+### Training
 First, install the packages via the following command:
 ```pip install -r requirements.txt```
 
-you can optionally open `config.py` and change the dataset and hyperparameters.
+you can optionally open `config.py` to change the dataset and hyperparameters.
 
-Second, just run `train.py` to start training!
+Afterward, just run `python train.py` to start training!
+
+### Hyperparameters
+You can find hyperparameters in `config.py`.
+
+For GoEmotion dataset, we set alpha=0.9 and gamma=0.1.
+
+For EmpatheticDialogues dataset, we set alpha=1.0 and gamma=0.25.
+
+We use `1234` as the default random seed for all experiments.
 
 ### Note
 `train_label_embedding.py` contains the script for training the hyperbolic label embeddings.
